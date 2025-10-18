@@ -1,4 +1,42 @@
-h1 {
-  font-size: 36;
-  color: blue;
+body > div {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 8px 0;
+}
+
+header > div {
+  position: absolute;
+  left: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+section {
+  padding: 20px 0;
+}
+
+section h2 {
+  font-size: 32px;
+  text-align: center;
+}
+
+#about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
