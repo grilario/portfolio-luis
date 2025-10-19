@@ -56,6 +56,17 @@ section h2 {
   flex-direction: column;
 }
 
+#about span {
+  font-family: "Lobster", sans-serif;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+#about p {
+  text-align: center;
+  width: 36%;
+}
+
 #formation > div {
   margin: 30px;
   display: flex;
@@ -119,6 +130,16 @@ section h2 {
 
 #portfolio > div div {
   width: 35%;
+}
+
+#portfolio div ul {
+  list-style-type: disc;
+  margin-left: 26px;
+}
+
+#portfolio div a {
+  display: block;
+  margin-top: 15px;
 }
 
 #portfolio h3 {
