@@ -88,9 +88,6 @@ section h2 {
   gap: 35px;
 }
 
-#formation .formation-item {
-}
-
 #formation .formation-item h3 {
   font-size: 22px;
   font-weight: bold;
@@ -104,4 +101,25 @@ section h2 {
 
 #formation .formation-item span {
   font-size: 14px;
+}
+
+#portfolio > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#portfolio > div img {
+  width: 35%;
+  border-radius: 4px;
+}
+
+#portfolio > div div {
+  width: 35%;
+}
+
+#portfolio h3 {
+  font-size: 22px;
+  font-weight: bold;
 }
