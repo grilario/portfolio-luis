@@ -14,7 +14,7 @@
 
     <link href="assets/css/normalize.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
-    <script src="assets/javascript/main.js"></script>
+    <script src="assets/javascript/main.js" defer></script>
   </head>
   <body>
     <div>
@@ -103,6 +103,22 @@
       </section>
       <section id="contact">
         <h2>Contato</h2>
+        <form>
+          <label>
+            <p>Nome</p>
+            <input type="text" name="name" placeholder="Digite seu nome" />
+          </label>
+          <label>
+            <p>Email</p>
+            <input type="email" name="email" placeholder="Digite seu email" />
+          </label>
+          <label>
+            <p>Mensagem</p>
+            <textarea name="message" rows="3"></textarea>
+          </label>
+          <span id="formStatus" class="hidden"></span>
+          <button type="submit">Enviar</button>
+        </form>
       </section>
     </div>
   </body>

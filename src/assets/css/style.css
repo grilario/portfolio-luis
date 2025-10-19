@@ -1,6 +1,8 @@
 :root {
   --bg-color: #0d0d0d;
+  --bg-input-color: #242426;
   --text-color: #ffffff;
+  --primary-color: #1f487e;
 }
 
 html {
@@ -122,4 +124,64 @@ section h2 {
 #portfolio h3 {
   font-size: 22px;
   font-weight: bold;
+}
+
+#contact form {
+  width: 40%;
+  margin: 30px auto;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+#contact label p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+#contact input {
+  width: 100%;
+  background-color: var(--bg-input-color);
+  outline: none;
+  padding: 5px 11px;
+  border-radius: 3px;
+}
+
+#contact textarea {
+  width: 100%;
+  background-color: var(--bg-input-color);
+  outline: none;
+  padding: 5px 11px;
+  border-radius: 3px;
+}
+
+#contact button {
+  width: 50%;
+  display: block;
+  margin: 20px auto 0;
+  background-color: var(--primary-color);
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact span {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact span.hidden {
+  display: none;
+}
+
+#contact span.valid {
+  color: #6eff97;
+}
+
+#contact span.invalid {
+  color: #ff6e6e;
 }
