@@ -16,7 +16,9 @@ document.querySelector("form").addEventListener("submit", async (e) => {
     isValidName,
     isValidMessage = false;
 
-  if (email.trim() != "") {
+  const isEmail =
+    /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/gi;
+  if (email.trim() != email.match(isEmail)) {
     isValidEmail = true;
   }
   if (name.trim() != "") {
